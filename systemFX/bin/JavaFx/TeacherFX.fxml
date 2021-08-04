@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="TeacherPane" prefHeight="670.0" prefWidth="1067.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx.TeacherControl">
+   <children>
+      <ImageView fitHeight="671.0" fitWidth="1080.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/fut.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="32.0" layoutY="54.0" prefHeight="393.0" prefWidth="233.0" style="-fx-background-color: #6d6d753b;">
+         <children>
+            <MaterialDesignIconView fill="#3d3d42" glyphName="ACCOUNT_BOX" layoutX="28.0" layoutY="167.0" size="175" wrappingWidth="172.0" />
+            <Label fx:id="IDlabel3" accessibleRole="TEXT_FIELD" layoutX="31.0" layoutY="189.0" prefHeight="40.0" prefWidth="172.0" text="ID">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="NameLabel3" accessibleRole="TEXT_FIELD" layoutX="29.0" layoutY="229.0" prefHeight="40.0" prefWidth="172.0" text="Name">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="GradeLabel3" layoutX="28.0" layoutY="269.0" prefHeight="40.0" prefWidth="172.0" text="系級">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnTeaShow" layoutX="578.0" layoutY="41.0" mnemonicParsing="false" onAction="#TeaShowData" prefHeight="26.0" prefWidth="89.0" text="Show" />
+      <ScrollPane layoutX="296.0" layoutY="88.0" prefHeight="551.0" prefWidth="742.0">
+         <content>
+            <TableView fx:id="TeaRecTable" prefHeight="549.0" prefWidth="1750.0">
+               <columns>
+                  <TableColumn fx:id="Tcol_ID" editable="false" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" style="-fx-alignment: CENTER;" text="ID" />
+                  <TableColumn fx:id="Tcol_Name" editable="false" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="姓名" />
+                  <TableColumn fx:id="Tcol_Class" editable="false" maxWidth="150.0" minWidth="105.0" prefWidth="105.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="系級" />
+                  <TableColumn fx:id="Tcol_Semester" editable="false" maxWidth="120.0" minWidth="120.0" prefWidth="120.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="學年" />
+                  <TableColumn fx:id="Tcol_Subject" editable="false" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="科目" />
+                  <TableColumn fx:id="Tcol_Teacher" editable="false" minWidth="120.0" prefWidth="120.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="老師" />
+                  <TableColumn fx:id="Tcol_Category" maxWidth="100.0" minWidth="100.0" prefWidth="100.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="假別" />
+                  <TableColumn fx:id="Tcol_Reason" editable="false" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="原因" />
+                  <TableColumn fx:id="Tcol_Time" editable="false" maxWidth="220.0" minWidth="220.0" prefWidth="220.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="日期 &amp; 時間" />
+                  <TableColumn fx:id="Tcol_Result" editable="false" maxWidth="95.0" minWidth="95.0" prefWidth="95.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="審核結果" />
+                  <TableColumn fx:id="Tcol_CreateTime" editable="false" maxWidth="180.0" minWidth="180.0" prefWidth="180.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="學生申請時間" />
+                  <TableColumn fx:id="Tcol_Check" editable="false" maxWidth="150.0" minWidth="150.0" prefWidth="150.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="老師進行審核動作" />
+                  <TableColumn fx:id="Tcol_Prove" editable="false" maxWidth="110.0" minWidth="110.0" prefWidth="110.0" resizable="false" sortable="false" style="-fx-alignment: CENTER;" text="Prove" />
+               </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+      <JFXButton fx:id="LogOut" layoutX="1020.0" layoutY="18.0" onAction="#LogOut" prefHeight="38.0" prefWidth="37.0" text=" ">
+         <graphic>
+            <MaterialDesignIconView fill="#3d3d42" glyphName="LOGOUT" size="30" text="" />
+         </graphic>
+      </JFXButton>
+      <JFXHamburger fx:id="TeaHam" layoutX="17.0" layoutY="18.0" />
+      <JFXDrawer fx:id="drawer" layoutY="43.0" prefHeight="626.0" prefWidth="186.0" />
+      <Label layoutX="350.0" layoutY="41.0" prefHeight="26.0" prefWidth="102.0" text="輸入學年 : ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label> 
+      <JFXTextField fx:id="inputSeme" layoutX="445.0" layoutY="42.0" prefHeight="23.0" prefWidth="123.0" promptText="ex. 108 2" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/* 
+.anchor {
+    -fx-background-image:url(file:///C:/Users/yantong.DESKTOP-CP92E1S/Desktop/SystemFXML/src/Images/fut.jpg);
+}
+*/
+
+.button:hover{
+	-fx-background-image:url(file:///C:/Users/yantong.DESKTOP-CP92E1S/Desktop/SystemFXML/src/Images/Sw.jpg);
+    
+	-fx-text-fill:#ffffff ;
+	-fx-text-alignment:center ;
+}
+
+.button{
+	/*-fx-background-color: #fff2f0;*/
+}
+
+.pane{
+	
+}
+
+HBox, VBox {
+    /*-fx-background-color: red;*/
+    -fx-background-image:url(file:///C:/Users/yantong.DESKTOP-CP92E1S/Desktop/SystemFXML/src/Images/splash2.jpg);
+    
+}

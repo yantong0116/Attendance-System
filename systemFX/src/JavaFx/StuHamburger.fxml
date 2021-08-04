@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="708.0" prefWidth="219.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <FontAwesomeIconView glyphName="HOME" size="140" textAlignment="CENTER" wrappingWidth="214.66668701171875" />
+      <JFXButton fx:id="btnDrawApply" accessibleText="Material apply" prefHeight="70.0" prefWidth="222.0" stylesheets="@application.css" text="Apply Attendence" />
+      <JFXButton fx:id="ShowRecord" accessibleText="Material Record" prefHeight="70.0" prefWidth="222.0" stylesheets="@application.css" text="Show Record" />
+   </children>
+</VBox>
