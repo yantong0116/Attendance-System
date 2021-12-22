@@ -7,9 +7,9 @@ Develop an attendance system where students can ask for leave on the system and 
 and teachers can review whether to approve the student’s leave application and check the class attendance.
 
 ## Development environment
-### Java Developers : Eclipse IDE
-### Database : phpMySQL
-### UI : Scene Builder
+#### Java Developers : Eclipse IDE
+#### Database : phpMySQL
+#### UI : Scene Builder
 
 ## System logic
 Stores courses and instructors in database, as well as courses that students have taken.
