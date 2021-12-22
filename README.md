@@ -9,7 +9,7 @@ and teachers can review whether to approve the student’s leave application and
 ## Development environment
 #### Java Developers : Eclipse IDE
 #### Database : phpMySQL
-#### UI : Scene Builder
+#### UI : JavaFX Scene Builder
 
 ## System logic
 Stores courses and instructors in database, as well as courses that students have taken.
