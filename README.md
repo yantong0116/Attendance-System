@@ -27,3 +27,5 @@ The teacher can review the student’s application for pass or fail, and view th
 #### Apply
 
 ### Teacher
+
+### Manager
