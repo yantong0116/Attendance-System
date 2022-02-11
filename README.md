@@ -28,5 +28,9 @@ The teacher can review the student’s application for pass or fail, and view th
 #### Apply
 
 ### Teacher
+#### Login
+![image](https://user-images.githubusercontent.com/51469882/151664538-7b6a0b48-78d6-43c5-8d22-a9e589301749.png)
 
 ### Manager
+#### Login
+![image](https://user-images.githubusercontent.com/51469882/151664538-7b6a0b48-78d6-43c5-8d22-a9e589301749.png)
