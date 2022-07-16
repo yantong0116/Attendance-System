@@ -103,7 +103,27 @@ Complete leave information for the student.
 ### systemFX/src/Connection
 - Connection/ConnectionClass.class
 ### system/src/JavaFx
-- ImageControl.java
+- ImageControl.java (顯示請假申請的請假證明圖片)
+- information.java (請假申請寫入資料庫，並檢查相同請假需求不能重複申請)
+- LessModelTable.java (表格資料取得設定)
+- login.java (登入功能)
+- Main.java (執行 project，進入登入畫面)
+- ManagerControl.java
+- ModelTable.java (表格資料取得設定)
+- ShowRecord.java
+- StudentControl.java
+- TeacherControl.java
+- TeaLessControl.java
+- application.css
+- ImageFX.fxml
+- loginFX.fxml (登入畫面)
+- ManagerFX.fxml
+- ShowRecordFX.fxml
+- StudentFX.fxml
+- StuHamburger.fxml
+- TeacherFX.fxml
+- TeaHamburger.fxml
+- TeaLessonsFX.fxml
 
 ## UI
 
