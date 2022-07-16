@@ -108,14 +108,14 @@ Complete leave information for the student.
 - LessModelTable.java (表格資料取得設定)
 - login.java (登入功能)
 - Main.java (執行 project，進入登入畫面)
-- ManagerControl.java
+- ManagerControl.java (管理者選擇csv檔，匯入資料)
 - ModelTable.java (表格資料取得設定)
-- ShowRecord.java
-- StudentControl.java
-- TeacherControl.java
-- TeaLessControl.java
+- ShowRecord.java (學生顯示請假紀錄，以及取消請假申請驗證)
+- StudentControl.java (學生進行請假申請)
+- TeacherControl.java (教師查看學生的請假申請，以及進行審核的動作)
+- TeaLessControl.java (教師查看課程學生的出勤狀況)
 - application.css
-- ImageFX.fxml
+- ImageFX.fxml (顯示請假證明圖片)
 - loginFX.fxml (登入畫面)
 - ManagerFX.fxml
 - ShowRecordFX.fxml
