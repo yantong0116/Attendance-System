@@ -103,9 +103,12 @@ public Connection connection;
 |studentinf.sql|紀錄學生的選課資訊|
 
 ### systemFX/src/Connection
-- ConnectionClass.class
+- 
+|File name |description|
+|-----|--------|--------|
+|ConnectionClass.java|專案與資料庫做連接|
 
-### system/src/JavaFx
+### systemFX/src/JavaFx
 
 |File name |description|
 |-----|--------|
