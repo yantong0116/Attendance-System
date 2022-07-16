@@ -93,15 +93,6 @@ public Connection connection;
 |createTime|datetime|申請時間|
 
 ## Main File
-### MySQL/
-
-|File name |description|
-|-----|--------|
-|courseinf.sql|紀錄課程相關資訊|
-|information.sql|紀錄學生的請假資訊|
-|login.sql|紀錄帳號密碼以及會員權限|
-|studentinf.sql|紀錄學生的選課資訊|
-
 ### systemFX/src/Connection
 
 |File name |description|
