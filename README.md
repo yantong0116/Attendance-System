@@ -142,13 +142,16 @@ Complete leave information for the student.
 
 ### Teacher
 - View all leave requests
+
 ![image](https://user-images.githubusercontent.com/51469882/179345160-5a97b12c-d5d9-4183-9d00-c2bd5f85048b.png)
 ![image](https://user-images.githubusercontent.com/51469882/179345167-a3d2941a-6f9c-4c56-9077-7d840ae12b03.png)
 ![image](https://user-images.githubusercontent.com/51469882/179345172-b090591e-55a8-4ae7-9f6a-a25877c51b0c.png)
 
 - View attendance for courses
+
 ![image](https://user-images.githubusercontent.com/51469882/179346711-88aec1df-2eac-4da1-948d-0814e0d6b2f9.png)
 
 ### Manager
 - upload .csv file to 
+
 ![image](https://user-images.githubusercontent.com/51469882/179345179-3d2dbc65-d8a7-464f-91b1-3a0e311f42cd.png)
