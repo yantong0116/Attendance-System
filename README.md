@@ -92,6 +92,19 @@ Complete leave information for the student.
 |confirm|varchar(225)|審核進度|
 |createTime|datetime|申請時間|
 
+## Main File
+### MySQL/
+- courseinf.sql
+- information.sql
+- login.sql
+- studenting.sql
+- systemfx.sql
+
+### systemFX/src/Connection
+- Connection/ConnectionClass.class
+### system/src/JavaFx
+- ImageControl.java
+
 ## UI
 
 ![image](https://user-images.githubusercontent.com/51469882/179345116-1b416929-7ba5-4f76-acf4-637abe58cdc8.png)
