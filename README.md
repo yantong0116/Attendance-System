@@ -1,4 +1,4 @@
-# JAVA Attendance System
+# Attendance System
 
 ## Introduce
 Develop an attendance system.
@@ -7,9 +7,10 @@ Students can ask for leave and view attendance records on the system.
 Teachers can audit students' leave requests and check class attendance.
 
 ## Development environment
-- Java Developers : Eclipse IDE
+- Language : Java
+- IDE : Eclipse
 - Database : phpMySQL
-- UI : JavaFX Scene Builder
+- UI : JavaFX (use SceneBuilder)
 
 ![image](https://user-images.githubusercontent.com/51469882/151664538-7b6a0b48-78d6-43c5-8d22-a9e589301749.png)
 
@@ -91,20 +92,24 @@ Complete leave information for the student.
 |confirm|varchar(225)|審核進度|
 |createTime|datetime|申請時間|
 
-## System UI
+## UI
+
+![image](https://user-images.githubusercontent.com/51469882/179345116-1b416929-7ba5-4f76-acf4-637abe58cdc8.png)
+
 ### Student
 #### Login
-
+![image](https://user-images.githubusercontent.com/51469882/179345131-6a342b6c-f4d6-40d2-be97-c3566a1ca0ab.png)
 #### Apply
+![image](https://user-images.githubusercontent.com/51469882/179345143-cbfcfbf8-936b-4a78-ac42-c64911dd14e5.png)
+![image](https://user-images.githubusercontent.com/51469882/179345147-41636e7f-60b7-4f55-9aa9-69a4e0511db4.png)
+![image](https://user-images.githubusercontent.com/51469882/179345149-10b41a63-7c03-43ed-ae90-45269f5df262.png)
 
 ### Teacher
 #### Login
+![image](https://user-images.githubusercontent.com/51469882/179345160-5a97b12c-d5d9-4183-9d00-c2bd5f85048b.png)
+![image](https://user-images.githubusercontent.com/51469882/179345167-a3d2941a-6f9c-4c56-9077-7d840ae12b03.png)
+![image](https://user-images.githubusercontent.com/51469882/179345172-b090591e-55a8-4ae7-9f6a-a25877c51b0c.png)
 
 ### Manager
 #### Login
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/51469882/179345179-3d2dbc65-d8a7-464f-91b1-3a0e311f42cd.png)
