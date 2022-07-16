@@ -43,7 +43,7 @@ public Connection connection;
 ## Table
 ### login
 
-Record login account, password and permissions.
+紀錄帳號密碼以及會員權限
 
 |Name |Type|Description|
 |-----|--------|--------|
@@ -55,7 +55,7 @@ Record login account, password and permissions.
 
 ### courseinf
 
-Record information about courses.
+紀錄課程相關資訊
 
 |Name |Type|Description|
 |-----|--------|--------|
@@ -66,7 +66,7 @@ Record information about courses.
 
 ### studentinf
 
-Record the student's courses selection information.
+紀錄學生的選課資訊
 
 |Name |Type|Description|
 |-----|--------|--------|
@@ -76,7 +76,7 @@ Record the student's courses selection information.
 
 ### information
 
-Complete leave information for the student.
+紀錄學生的請假資訊
 
 |Name |Type|Description|
 |-----|--------|--------|
@@ -94,14 +94,17 @@ Complete leave information for the student.
 
 ## Main File
 ### MySQL/
-- courseinf.sql
-- information.sql
-- login.sql
-- studenting.sql
-- systemfx.sql
+
+|File name |description|
+|-----|--------|
+|courseinf.sql|紀錄課程相關資訊|
+|information.sql|紀錄學生的請假資訊|
+|login.sql|紀錄帳號密碼以及會員權限|
+|studentinf.sql|紀錄學生的選課資訊|
 
 ### systemFX/src/Connection
-- Connection/ConnectionClass.class
+- ConnectionClass.class
+
 ### system/src/JavaFx
 
 |File name |description|
@@ -116,17 +119,17 @@ Complete leave information for the student.
 |ShowRecord.java|學生顯示請假紀錄，以及取消請假申請驗證|
 |StudentControl.java|學生進行請假申請|
 |TeacherControl.java|教師查看學生的請假申請，以及進行審核的動作|
-|TeaLessControl.java|教師查看課程學生的出勤狀況|
-|application.css||
+|TeaLessControl.java|教師查看課程學生的出席狀況|
+|application.css|設計button顏色等等|
 |ImageFX.fxml|顯示請假證明圖片|
 |loginFX.fxml|登入畫面|
-|ManagerFX.fxml||
-|ShowRecordFX.fxml||
-|StudentFX.fxml||
-|StuHamburger.fxml||
-|TeacherFX.fxml||
-|TeaHamburger.fxml||
-|TeaLessonsFX.fxml||
+|StuHamburger.fxml|學生功能切換窗格|
+|TeaHamburger.fxml|教師功能切換窗格|
+|StudentFX.fxml|學生請假申請畫面|
+|ShowRecordFX.fxml|學生查看個人請假申請畫面|
+|TeacherFX.fxml|教師審核學生請假申請畫面|
+|TeaLessonsFX.fxml|教師查看課程出席狀況畫面|
+|ManagerFX.fxml|管理員功能畫面|
 
 ## UI
 
